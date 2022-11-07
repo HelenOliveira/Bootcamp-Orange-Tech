@@ -7,11 +7,27 @@
     <title>Pokedex</title>
 </head>
 <body>
-    
-</body>
+<style>
+    h1 {
+        color: red;
+        text-align:center ;
+    }
+</style>
+
 <h1> Projeto de construção de Site</h1>
 
     <p>Site construído com a plataforma da Dio</p>
 
     <p>Um fator importante é entender bem as tags HTML</p>
+
+    <button type="button"> TESTE </button>
+
+    <script id="btnTeste">
+        const btnTeste = document.getElementById("btnTeste")
+        console.log(btnTeste);
+        btnTeste.addEventListener("click", function (){
+            console.log('Clicou no botao!');
+        });
+    </script>
+    </body>
 </html>
