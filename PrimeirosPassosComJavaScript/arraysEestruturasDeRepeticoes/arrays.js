@@ -11,7 +11,6 @@ notas.push(8);
 notas.push(2);
 notas.push(5);
 
-
 //uma forma mais simples é usando estruturas de repetições
 
 for (let i = 0 ; i < notas.length; i++)  {
@@ -24,12 +23,6 @@ for (let i = 0 ; i < notas.length; i++)  {
 const media = soma / notas.length;
     console.log(media);
 
-
-
-
-
-
-
 /*
 //somando as notas  e retirando  a media das
 notas[0] + notas[1] + notas[2]+ notas[3] + notas[4];
@@ -41,8 +34,6 @@ console.log(notas.length);
 console.log(soma / 5);
 
 //uma forma mais simples é usando estruturas de repetições
-
-
 
 usando FOR para percorrer um array de uma string, exemplo:
 const nome = 'Helena Duarte Andrade';
