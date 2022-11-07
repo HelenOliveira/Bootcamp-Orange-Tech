@@ -1,4 +1,4 @@
-/*O Objeto é uma estrutura de chave e valor
+/*O Objeto é uma estrutura de chave e valor */
 
 const Helen = {
     nome: 'Helen Oliveira',
@@ -27,7 +27,6 @@ pessoa.idade = 25;
 pessoa.descrever();
 
 //console.log(pessoa['nome']); (para acessar dinamicamente o atributo da função)
-
 //Criando uma classe Pessoa para que sejam instanceadas 
 
 class Pessoa {
@@ -65,7 +64,7 @@ const helen = new Pessoa ('helen', 25);
 const helena = new Pessoa ('helena', 55);
 
 console.log(helen);
-console.log(helena); */
+console.log(helena); 
 
 //Usando a mesma classe pessoa com funções comparando duas pessoas
 
